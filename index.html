@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="amnexya.com"/>
+    <meta name="keywords" content="amnexya, amnexya.com, amnexya website, amnexya blog, amnexya github, amnexya gitlab, amnexya contacts, amnexya dev"/>
+
+    <link rel="icon" href="img/globe.ico"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <title>amnexya.com</title>
+</head>
+<body>
+    <audio id="eurodancer" src="eurodancer.mp3"></audio>
+    <div class="animate__animated animate__fadeIn animate__delay-1s">
+        <h1 class="name">amnexya</h1>
+        <img class="img" id="donut" src="img/donut.gif" alt="shitty ass browser not playing gifs" onClick="eurodancer()">
+        <p class="subtext">"your average internet dweller"</p>
+    </div>
+    <div class="links animate__animated animate__fadeIn animate__delay-2s">
+        <a class="links" href="https://github.com/amnexya">GitHub</a>
+        <a class="links" href="https://gitlab.com/amnexya">GitLab</a>
+        <a class="links" href="https://amnexya.dreamwidth.org">Blog (external)</a>
+        <a class="links" href="#popup" id="popupLink">Contacts</a>
+    </div>
+    <br>
+    <div class="links animate__animated animate__fadeIn animate__delay-3s">
+        <p>hey! i'm amnexya, a developer and cybersec enthusiast out of england.</p>
+        <p>i currently study bsc computer science and work as a python software developer.</p>
+        <p>check out the links above for more stuff about me.</p>
+        <p>(github and gitlab are the best to see stuff ive worked on)</p>
+    </div>
+
+    <div id="popup" class="modal animate__animated animate__fadeIn">
+        <div class="modal-content">
+            <span id="closeBtn" class="close-btn">&times;</span>
+            <p class="subtext">For main email please send a request to one of the below.</p>
+            <p class="subtext">amnexya@airmail.cc</p>
+            <p class="subtext">shebang@national.shitposting.agency</p>
+            <p class="subtext">@shebang0 [telegram]</p>
+        </div>
+    </div>
+
+    <p class="footer animate__animated animate__fadeIn">&copy; amnexya.com | 2024 | All rights reserved.</p>
+    <script src="script.js"></script>
+    <script>
+        function eurodancer() {
+            if (document.getElementById('eurodancer').paused) {
+                document.getElementById('eurodancer').play();
+            } else {
+                document.getElementById('eurodancer').pause();
+            }
+        }
+    </script>
+</body>
+</html>
