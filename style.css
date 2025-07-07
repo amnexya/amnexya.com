@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 10px;
+    white-space: pre;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+}
+
+.link {
+    color: orange;
+    text-decoration: dotted;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.contain {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.contain-left {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.button-link {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    margin: 32px;
+    font-size: 1.5em;
+}
