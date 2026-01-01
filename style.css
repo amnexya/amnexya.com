@@ -1,55 +1,38 @@
+@font-face {
+    font-family: "Terminus";
+    src: url('TerminusTTFWindows.ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-family: "Terminus", monospace;
+    scroll-behavior: smooth;
+}
+
 body {
-    background: black;
-    color: white;
-    font-family: monospace;
-    text-align: center;
     margin: 0;
-    padding: 10px;
-}
-
-p {
-    font-size: 12px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-.title {
-    font-size: 10px;
-    white-space: pre;
-    display: block;
-    overflow-x: hidden;
-    max-width: 100%;
-}
-
-.link {
-    color: orange;
-    font-weight: bold;
-}
-
-.contain {
-    width: 90%;
-    max-width: 1000px;
+    padding-top: 1em;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ddd;
+    overflow-wrap: break-word;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    line-height: 0.9em;
 }
 
-.align_l {
-    text-align: left;
+a {
+    color: #ddd;
+    text-decoration: underline;
 }
 
-.button-link {
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    padding: 8px;
-    margin: 32px;
-    font-size: 1.5em;
+a:hover {
+    color: #fff;
 }
 
-@media (max-width: 480px) {
-    .title { font-size: 4px; }
-    .contain { width: 95%; padding: 10px; }
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
